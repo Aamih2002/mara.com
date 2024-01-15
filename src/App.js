@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './Header.css'
+function Main() {
+  return (<div>
+    <div className='Header'>
+      <h4 className='h1'>Mara Hla Chabie</h4>
+      <ul className='ul'>
+        <li className='li' >Azyhdua</li>
+        <li className='li' >Azaona</li>
+        <li className='li' >Ataotuhpa</li>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </ul>
+
     </div>
-  );
+    <div className='search'>
+      <input type='text' placeholder='Hla tlua awpata roh tyh........' className='input' />
+      <button className='button'>Tluanâ</button>
+    </div>
+  </div>
+
+  )
 }
 
-export default App;
+
+export default Main;

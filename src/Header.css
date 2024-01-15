@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(229, 203, 203);
+    background-image: url('4k worship website background.jpeg');
+    background-size: cover;
+    background-color: rgba(0, 0, 255, 0.36);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin: 0;
+    border: 2px solid bisque;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.553);
+    padding: 6px;
+
+}
+
+.h1 {
+    color: white;
+    margin-left: 6px;
+    font-size: 18px;
+
+}
+
+.ul {
+    display: flex;
+    margin-right: 6px;
+
+}
+
+.li {
+    list-style: none;
+    padding: 8px 13px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.li:hover {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: white;
+    transition: 0.06s all;
+
+}
+
+.search {
+    text-align: center;
+    margin-top: 9px;
+    /* background-image: url('4k worship website background.jpeg');
+    background-size: cover; */
+
+
+}
+
+.input {
+    padding: 10px;
+    border-radius: 7px;
+    margin-right: 7px;
+    padding-right: px;
+    color: blue;
+    text-wrap: wrap;
+}
+
+.button {
+    color: green;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
